@@ -36,7 +36,7 @@ The 3 Wheel Omni Wheel Drive runs the OmniBot using an RC controller (FlySky FS-
 ```bash
 sudo apt-get update
 sudo apt-get install pigpio python3-pigpio
-
+```
 ## User Instructions
 
 1. **Check Battery Status**  
@@ -77,16 +77,17 @@ sudo apt-get install pigpio python3-pigpio
 ## Developer Instructions
 
 1. **Clone the Repository**
-   ```bash
+``` bash
    git clone https://github.com/goelsuchet/omnibot.git
    cd omnibot
-2. **Install Required Tools*
+ ``` 
+2. **Install Required Tools**
 - Use a Raspberry Pi (preferably 4B).
 - Ensure Python 3 is installed.
 - Install the pigpio library:
-sudo apt update
+```sudo apt update
 sudo apt install pigpio
-
+```
 3. **Start pigpio Daemon**
 sudo pigpiod
 4. **Folder Structure Overview**
