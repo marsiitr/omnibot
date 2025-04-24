@@ -19,10 +19,10 @@ The 3 Wheel Omni Wheel Drive runs the OmniBot using an RC controller (FlySky FS-
 ### Wiring Receiver → Pi
 
 | Receiver Pin | Purpose                 | Pi GPIO | Pi Pin #  |
-|--------------|-----------------       -|---------|-----------|
-| CH1          | X-velocity              | GPIO17  | Pin 11    |
-| CH2          | Y-velocity              | GPIO27  | Pin 13    |
-| CH3          | Angular velocity(w)     | GPIO22  | Pin 15    |
+
+| CH1          | X-velocity              | GPIO22  | Pin 15    |
+| CH2          | Y-velocity              | GPIO23  | Pin 16    |
+| CH3          | Angular velocity(w)     | GPIO27  | Pin 13    |
 | GND          | Ground                  | GND     | Pin 6     |
 | VCC          | 5 V (power only)        | 5 V     | Pin 2/4   |
 
